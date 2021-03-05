@@ -1,11 +1,14 @@
 import './App.css';
+import Mehdi from './components/Mehdi'
 import Slim from './components/Slim';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+
       <Slim />
+      <Mehdi/>
     </div>
   );
 }
